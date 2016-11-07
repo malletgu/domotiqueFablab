@@ -1,0 +1,15 @@
+rule "Initialize contact states"
+	when
+		System started
+	then
+		Doors?.members.forEach(door|
+			postUpdate(door, CLOSED)
+		)
+end
+
+rule "Updates contact status"
+  when
+	 Item Door_Main changed
+  then
+    postUpdate(Door_Main, OPEN)
+end

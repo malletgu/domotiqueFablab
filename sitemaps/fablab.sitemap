@@ -1,0 +1,13 @@
+sitemap fablab label="Fablab"
+{
+	Frame label="General informations" {
+		Text item=Date
+	  Text item=UnknownDevices
+		Text item=NoOfPairedDevices
+	}
+	Frame label="Security" {
+		Text label="Doors" icon="firstfloor" {
+			Group item=Doors
+		}
+	}
+}
