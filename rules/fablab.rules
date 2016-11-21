@@ -1,15 +1,12 @@
-rule "Initialize contact states"
-	when
-		System started
-	then
-		Doors?.members.forEach(door|
-			postUpdate(door, CLOSED)
-		)
-end
 
-rule "Updates contact status"
-  when
-	 Item Door_Main changed
-  then
-    postUpdate(Door_Main, OPEN)
+rule Change_Contact_State
+        when 
+                Item Door_Main received command
+        then 
+                if (command == 1){
+                        Door_Main.sendCommand(CLOSED)
+                }else{
+                        Door_Main.sendCommand(OPEN)
+                }
+
 end
