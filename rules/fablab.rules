@@ -1,12 +1,13 @@
 
-rule Change_Contact_State
+/*rule "Change_Contact_State"
         when 
                 Item Door_Main received command
         then 
+		logDebug("Door","command"+command)
                 if (command == 1){
-                        Door_Main.sendCommand(CLOSED)
+                        sendCommand(Door_Main,CLOSED)
                 }else{
-                        Door_Main.sendCommand(OPEN)
+                        sendCommand(Door_Main,OPEN)
                 }
 
-end
+end*/

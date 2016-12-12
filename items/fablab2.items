@@ -1,0 +1,22 @@
+Group All
+Group gIndoor 		(All)
+Group Status 	(All)
+
+Group Fablab 	"Fablab" 	<video> 	(gIndoor)
+
+/* active groups */
+Group:Contact:OR(OPEN, CLOSED) 	Doors 	"Open doors [(%d)]"				<contact>		(All)
+
+
+/* Doors */
+Contact  Door_Main "Maindoor [MAP(contact.map):%s]" (Fablab, Doors) { mqtt="<[fablab:sensors/contact/CO:state:MAP(contact.map)]"}
+Contact  Door_Main2 "Maindoor [%s]"		(Fablab, Doors) {mqtt="<[fablab:sensors/contact:state:default]"}
+/*Number Door_Main "Maindoor [MAP(en.map):%s]"		(Fablab, Doors) {mqtt="<[fablab:sensors/contact:state:default]"} */
+/* Contact Door_Second		"Seconddoor [MAP(en.map):%s]"			(Fablab, Doors) {enocean ="{id=01:80:70:CB, eep=D5:00:01, parameter=CONTACT_STATE:closed}"} */
+
+/* NTP binding demo item */
+DateTime		Date			"Date [%1$tA, %1$td.%1$tm.%1$tY]"	<calendar>	{ ntp="Europe/Berlin:de_DE" }
+
+/* String UnknownDevices    "Unknown Devices in Range: [%s]" { enocean="id={?}" }
+Number NoOfPairedDevices "Paired Devices in Range: [%d]"  { enocean="id={!}" }
+*/
