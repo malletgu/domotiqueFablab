@@ -1,0 +1,297 @@
+    1  sudo ls
+    2  setxkbmap fr
+    3  iwconfig
+    4  iwconfig wlan0 scanning
+    5  iwlist wlan0 scan
+    6  iwlist wlan0 scan | less
+    7  iwlist wlan0 scan | grep SSID
+    8  ping 8.8.8.8
+    9  cd /Tmp
+   10  cd /tmp
+   11  cat /etc/resolv.conf 
+   12  ping 192.168.0.1
+   13  dig google.com
+   14  aaa www.google.com
+   15  aa www.google.com
+   16  wget www.google.com
+   17  chromium-browser --proxy-server=www.cache.grenoble-ujf.fr:3128
+   18  chromium-browser --proxy-server=www.cache.ujf-grenoble.fr:3128
+   19  cat ~/.bash_aliases 
+   20  ping 8.8.8.8
+   21  pwd
+   22  git clone https://github.com/malletgu/domotiqueFablab.git
+   23  man chromium-browser 
+   24  source .bash_aliases 
+   25  setproxy 
+   26  chpro 
+   27  date
+   28  cd
+   29  ls
+   30  nano .bash_aliases 
+   31  cd domotiqueFablab/
+   32  ls
+   33  chromium-browser 
+   34  ls /var/lo
+   35  ls /var/log
+   36  cd apt
+   37  cd /var/log/apt/
+   38  ls
+   39  cd ..
+   40  cd 
+   41  ls
+   42  cd Documents/
+   43  ls
+   44  cd openhab/
+   45  ls
+   46  cd addons/
+   47  ls
+   48  cd ../logs
+   49  ls
+   50  tail -f openhab.log 
+   51  nano /etc/apt/sources.list
+   52  sudo nano /etc/apt/sources.list
+   53  sudo -E apt-get update
+   54  setproxy 
+   55  sudo -E apt-get update
+   56  wget -qO - 'https://bintray.com/user/downloadSubjectPublicKey?username=openhab' | sudo apt-key add
+   57  wget -qO - 'https://bintray.com/user/downloadSubjectPublicKey?username=openhab' | sudo apt-key add -
+   58  sudo -E apt-get update
+   59  sudo apt-get install openhab-runtime -y --force-yes
+   60  sudo -E apt-get install openhab-runtime -y --force-yes
+   61  sudo update-rc.d openhab defaults
+   62  sudo -E apt-get install openhab-addon-binding-mqtt -y --force-yes
+   63  cd /etc/openhab/
+   64  ms
+   65  ls
+   66  cd configurations/
+   67  ls
+   68  cd ..
+   69  rm -r configurations/
+   70  rm -rf configurations/
+   71  ls
+   72  sudo rm -r configurations/
+   73  cp -r ~/Documents/openhab/configurations/ .
+   74  sudo cp -r ~/Documents/openhab/configurations/ .
+   75  ls
+   76  cd configurations/
+   77  ls
+   78  cd Documents/openhab/
+   79  ls
+   80  cd configurations/
+   81  ls
+   82  less openhab_default.cfg 
+   83  sudo nano openhab_default.cfg 
+   84  nano openhab_default.cfg 
+   85  setproxy 
+   86  git clone https://github.com/malletgu/domotiqueFablab.git
+   87  ls
+   88  cd domotiqueFablab/
+   89  ls
+   90  nlsfnglsdqngklsdnqlgfnskldng
+   91  apt-cache search nocean
+   92  apt-cache search enocean
+   93  sudo apt-get update
+   94  sudo -E apt-get update
+   95  chpro 
+   96  apt-cache search enocean
+   97  apt-cache search mqtt
+   98  sudo -E apt-get install mosquitto 
+   99  man date
+  100  cd ~/Downloads/
+  101  ls
+  102  unzip distribution-1.8.3-runtime.zip 
+  103  ls
+  104  mv distribution-1.8.3-runtime.zip ../
+  105  ls
+  106  rm -rf ./*
+  107  ls
+  108  mv ../distribution-1.8.3-runtime.zip .
+  109  ls
+  110  mkdir openhab
+  111  mv distribution-1.8.3-runtime.zip openhab/
+  112  cd openhab/
+  113  unzip distribution-1.8.3-runtime.zip 
+  114  ls
+  115  rm -r configurations/
+  116  cd ..
+  117  mv openhab/ ~/Documents/
+  118  ls
+  119  cd ~/Documents/
+  120  ls
+  121  cd openhab/
+  122  ls
+  123  mv distribution-1.8.3-runtime.zip ~/Downloads/
+  124  ls
+  125  cp ~/domotiqueFablab/ . 
+  126  ls
+  127  cp -r ~/domotiqueFablab/ . 
+  128  ls
+  129  mv domotiqueFablab/ configuration
+  130  mv configuration/ configurations
+  131  ls
+  132  cd configurations/
+  133  ls
+  134  less items/fablab2.items
+  135  cd ..
+  136  ls
+  137  ./start.sh
+  138  sudo -E ./start.sh 
+  139  ifconfig
+  140  sudo -E ./start.sh 
+  141  sudo ./start.sh 
+  142  chpro 
+  143  sudo date -s ''
+  144  sudo date -s '1612'
+  145  sudo date -s '1216'
+  146  sudo date -s '1040'
+  147  sudo date -s '104011'
+  148  sudo date -s '10401111'
+  149  sudo date -s '10400202'
+  150  sudo date -s '1040020202'
+  151  sudo date -s '02021040'
+  152  sudo date -s '021040'
+  153  sudo date -s '0202021040'
+  154  sudo date -s '2020-10-04-1040'
+  155  sudo date -s '2020-10-04 10:40'
+  156  sudo date -s '2016-12-12 10:40'
+  157  sudo date -s '2016-12-12 10:42'
+  158  chpro 
+  159  bg
+  160  apt-cache search openhab
+  161  chpro 
+  162  chpro
+  163  sudo service openhab start
+  164  chromium-browser 
+  165  ls
+  166  cd ..
+  167  ls
+  168  mv enoceanmqtt.conf ~/Documents/enocean/enocean-mqtt-master/enoceanmqtt/
+  169  sudo mv enoceanmqtt.conf ~/Documents/enocean/enocean-mqtt-master/enoceanmqtt/
+  170  cd ~/Documents/enocean/enocean-mqtt-master
+  171  ls
+  172  sudo service openhab restart
+  173  chromium-browser 
+  174  netstat 
+  175  man nets
+  176  netstat | grep open
+  177  netstat | grep -i open
+  178  netstat | grep -i hab
+  179  mqtt -v
+  180  mosquitto -v
+  181  mosquitto_sub
+  182  setproxy 
+  183  apt-cache search mqtt
+  184  sudo -E apt-get install mosquitto-clients
+  185  npm node-enocean-utils
+  186  sudo npm node-enocean-utils
+  187  apt-get search npm
+  188  apt-cache search npm
+  189  apt-get install npm
+  190  sudo -E apt-get install npm
+  191  sudo npm node-enocean-utils
+  192  sudo npm install node-enocean-utils
+  193  sudo n -Epm install node-enocean-utils
+  194  sudo n -E npm install node-enocean-utils
+  195  sudo -E npm install node-enocean-utils
+  196  sudo service openhab stop
+  197  sudo service openhab start
+  198  cd Documents/enocean/enocean-mqtt-master/enoceanmqtt
+  199  sudo enoceanmqtt 
+  200  cd ..
+  201  ls
+  202  sudo enoceanmqtt 
+  203  sudo apt-cache search enocean
+  204  locate enocean.utils
+  205  tree
+  206  sudo enoceanmqtt
+  207  cd enoceanmqtt
+  208  sudo enoceanmqtt 
+  209  setproxy 
+  210  setxkbmap fr
+  211  cd Downloads/
+  212  ls
+  213  cd ../Documents/
+  214  ls
+  215  rm -r openhab/
+  216  sudo rm -r openhab/
+  217  ls
+  218  mkdir enocean
+  219  cp ~/Downloads/enocean-mqtt-master.zip enocean/
+  220  ls
+  221  cd enocean/
+  222  ls
+  223  unzip enocean-mqtt-master.zip 
+  224  ls
+  225  rm enocean-mqtt-master.zip 
+  226  cd enocean-mqtt-master/
+  227  ls
+  228  cd enoceanmqtt/
+  229  ls
+  230  cd ..
+  231  ls
+  232  python3 setup.py develop
+  233  sudo python3 setup.py develop
+  234  sudo -E  python3 setup.py develop
+  235  enocean-mqtt
+  236  enoceanmqtt
+  237  cd enoceanmqtt
+  238  enoceanmqtt
+  239  sudo enoceanmqtt 
+  240  ls
+  241  cd ..
+  242  ls
+  243  sudo enoceanmqtt 
+  244  ls
+  245  cd enoceanmqtt
+  246  ls
+  247  cd /etc/openhab/configurations/
+  248  ls
+  249  cd items/
+  250  ls
+  251  nano fablab2.items
+  252  tail -f /var/log/openhab/openhab.log 
+  253  ls
+  254  setxkbmap FR
+  255  setxkbmap fr
+  256  ls
+  257  cd domotiqueFablab/
+  258  ls
+  259  cd ..
+  260  ls
+  261  cd Documents/
+  262  ls
+  263  ls enocean/
+  264  ls
+  265  cd enocean/
+  266  ls
+  267  cd ..
+  268  ls
+  269  cd 
+  270  cd Downloads/
+  271  ls
+  272  cd 
+  273  ls
+  274  cd Documents/
+  275  ls
+  276  cd ..
+  277  ls
+  278  c d domotiqueFablab/
+  279  ms
+  280  cd domotiqueFablab/
+  281  ls
+  282  cd ..
+  283  ls
+  284  cd python_games/
+  285  ls
+  286  cd ..
+  287  ls
+  288  cd Public/
+  289  ls
+  290  cd ../Templates/
+  291  ls
+  292  hostory
+  293  history
+  294  cat history >> ~/Desktop/history.txt
+  295  cat history > ~/Desktop/history.txt
+  296  history
+  297  history >> ~/domotiqueFablab/scripts/history.txt
