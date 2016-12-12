@@ -12,9 +12,10 @@ fi
 # Mise en place du proxy relatif au point d'accès du FabLab
 #TODO
 
+# Installation d'OpenHab
+
 # Installation de mosquitto
 sudo -E apt-get mosquitto
 
-# Installation d'OpenHab
-
+# Installation de EnOcean Mosquitto
 
