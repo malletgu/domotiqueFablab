@@ -23,6 +23,6 @@ sh scripts/enocean.sh
 sh scripts/enocean-mqtt.sh
 
 # Configuration de enocean
-cp config/enoceanmqtt.conf enocean-mqtt/enoceanmqtt.conf
+cp config/enoceanmqtt.conf /opt/enocean-mqtt/enoceanmqtt.conf
 
 

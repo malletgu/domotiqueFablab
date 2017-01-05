@@ -1,7 +1,7 @@
 #! /bin/sh
 
-git clone git@github.com:romor/enocean-mqtt.git
-cd enocean-mqtt
+git clone git@github.com:romor/enocean-mqtt.git /opt/enocean-mqtt
+cd /opt/enocean-mqtt
 sudo python3 setup.py develop
 
 # On renomme la clé usb en "enocean"
