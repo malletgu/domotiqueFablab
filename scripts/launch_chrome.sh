@@ -1,5 +1,5 @@
 #! /bin/bash
 
-sh scripts/network.sh
+bash scripts/network.sh
 chromium-browser --proxy-server="http://www-cache.ujf-grenoble.fr:3128"
 google-chrome --proxy-server="http://www-cache.ujf-grenoble.fr:3128"
