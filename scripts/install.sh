@@ -19,4 +19,6 @@ echo "Installation de mosquitto"
 sudo -E apt-get mosquitto
 
 echo "Installation de EnOcean Mosquitto"
+sh scripts/enocean.sh
+sh scripts/enocean-mqtt.sh
 

@@ -1,7 +1,6 @@
-#! /bin/sh
+#! /bin/bash
 
-export http_proxy=http://www-cache.ujf-grenoble.fr:3128
-export https_proxy=http://www-cache.ujf-grenoble.fr:3128
+source scripts/set_proxy
 
 cp config/.wgetrc ~
 
