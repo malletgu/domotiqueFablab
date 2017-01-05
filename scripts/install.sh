@@ -9,16 +9,20 @@ then
 	exit
 fi
 
-echo "Mise en place du proxy relatif au point d'accès du FabLab"
+echo "###### Mise en place du proxy relatif au point d'accès du FabLab ######"
 sh scripts/network.sh
 
-echo "Installation d'OpenHab"
+echo "###### Installation d'OpenHab ######"
 sh scripts/openhab.sh
 
-echo "Installation de mosquitto"
+echo "###### Installation de mosquitto ######"
 sudo -E apt-get mosquitto
 
-echo "Installation de EnOcean Mosquitto"
+echo "###### Installation de EnOcean Mosquitto ######"
 sh scripts/enocean.sh
 sh scripts/enocean-mqtt.sh
+
+# Configuration de enocean
+cp config/enoceanmqtt.conf enocean-mqtt/enoceanmqtt.conf
+
 
